@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox2.Text" xml:space="preserve">
+    <value>------------------------------------------------------------------------------------------------------------------
+Both the 3x3 cube and the 2x2 cube are solved using beginner methods. Although 
+these methods are not the most move efficient (don't use the least amount of moves)
+they are ideal for begginers because it makes it easier to see the different stages of 
+solving the cube.
+
+*** PLEASE NOTE ***
+This is only a description. It will not be sufficient to solve a cube as it is only basic and 
+intended to help the user what the solving program is doing.
+
+
+The 2x2 cube is solved using stages 2, 6 and 7.
+The only difference is stage 6 can be changed slightly so that the algorithm can be 
+carried out fewer times.
+
+
+The 3x3 cube is solved in 7 stages:
+1. White Cross -
+    This stage is the easiest and involves arranging the white edge pieces into the 
+    correct position on the bottom of the cube.
+
+2. White Corners -
+    This stage is also easy. For the beginner method only one algorithm is involved.
+    Once you have a white corner piece in the correct position it is R U R' U'.
+    Continue this algorithm until the corner piece is in the correct orientation.
+
+3. Middle Layer
+    This layer is more difficult to complete. It involves the same algorithm as the
+    previous stage and another algorithm that is the same but the R face is 
+    replaced with the L face. a combination of these two algorithms are used to
+    solve each edge piece.
+
+4. Yellow Cross
+    This stage is fairly simple. it involves a very similiar algorithm to the previous
+    stages however it is changed slightly.
+    The front face is rotated depending on what shape the yellow squares make on 
+    top of the cube.
+
+5. Yellow Cross in the correct position - 
+    There is now a yellow cross on top but each square in the cross is not necessarily
+    in the correct place.
+    Depending on the configuration of the cross, the algorithm R U R' U R U2 R' U 
+    will be used in different ways to solve this section.
+
+6. Yellow Corners -
+    Now that the yellow cross is solved, the corners must be solved. The cube is 
+    searched until a corner that is in the correct place is found. It doesn't have to be
+    in the correct orientation.
+    The algorithm U R U' L' U R' U' L is used to move the corners around on the top.
+
+7. Yellow Corners orientation -
+    The final stage is to orient the top corners correctly. Often beginners will turn 
+    the cube upside down for this step.
+    The algorithm for this step is L D L' D'.
+    When completing this step, if the yellow square is on the top at any point, the 
+    algorithm is completed and the top face is rotated to the next unsolved corner.
+    It may appear that the cube has been 'messed up' but if the algorithm is
+    continued then the cube will be solved.
+</value>
+  </data>
+  <data name="Label22.Text" xml:space="preserve">
+    <value>To input your own colours, simply click the colour you
+need on the left and then click the square on the cube 
+that you want to change.
+
+WARNING: if you change the cube to an unsolvable state,
+                 the program will terminate when you click 
+                 solve.</value>
+  </data>
+  <data name="Label21.Text" xml:space="preserve">
+    <value>Scrambling the cube will cause it to be changed into a random configuration.
+
+Click solve to solve the cube and see the steps taken to solve it in the 
+"Moves:" box on the right.
+
+Click solve step by step to view each step involved in solving the cube.</value>
+  </data>
+  <data name="Label20.Text" xml:space="preserve">
+    <value>Click these buttons to manipulate the cube.
+
+Each letter represents a face: Up, Front, Down, Left, Right, Back.
+
+If a letter has a ' next to it then the face of the cube that it represents
+is being rotated anticlockwise.
+If a letter has a 2 next to it then the face is being rotated 180 degrees.
+If it has neither then it is being rotated once clockwise.
+
+Reset Cube will return the cube to the solved state.</value>
+  </data>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
